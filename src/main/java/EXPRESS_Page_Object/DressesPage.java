@@ -22,7 +22,7 @@ public class DressesPage extends Reusable_Annotations {
     WebElement size;
     @FindBy(xpath = "//*[text()='Add to Bag']")
     WebElement AddToBag;
-
+//test
     //Create a pom method to click on dress
     public void ClickOnDress(){
         Reusable_Actions_Loggers_POM.multipleClick(driver,ClickDress,1,logger,"Click on Dress");
